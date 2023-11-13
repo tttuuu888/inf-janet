@@ -1,5 +1,7 @@
 ;;; inf-janet.el --- Run an external Janet process in an Emacs buffer -*- lexical-binding: t; -*-
 
+;; Version: 0.1.0
+
 ;; * Add the following lines to your .emacs file:
 ;;
 ;;    (require 'inf-janet)
