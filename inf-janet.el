@@ -77,7 +77,7 @@ single-letter colon-keyword \(as in :a, :c, etc.)"
     (define-key map "\C-c\C-r" #'inf-janet-eval-region)
     (define-key map "\C-c\C-n" #'inf-janet-eval-form-and-next)
     (define-key map "\C-c\C-z" #'inf-janet-switch-to-repl)
-    (define-key map "\C-c\C-l" #'inf-janet-load-file)
+    ;; (define-key map "\C-c\C-l" #'inf-janet-load-file)
     map))
 
 ;;;###autoload
