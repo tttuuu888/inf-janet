@@ -207,7 +207,7 @@ Fallback to `default-directory.' if not within a project."
                                     "inf-janet" (car cmdlist) nil (cdr cmdlist))
           (inf-janet-mode))))
   (setq inf-janet-buffer "*inf-janet*")
-  (display-buffer inf-janet-buffer))
+  (pop-to-buffer inf-janet-buffer))
 
 ;;;###autoload
 (defalias 'run-janet 'inf-janet)
