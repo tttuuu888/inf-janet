@@ -340,7 +340,7 @@ Used by this command to determine defaults."
 ;;   (inf-janet-switch-to-repl t))
 
 (defun inf-janet-connected-p ()
-  (not (null inf-janet-buffer)))
+  (not (null (comint-check-proc inf-janet-buffer))))
 
 ;;; Documentation functions
 
